@@ -1,8 +1,13 @@
 # Add  code here!
 def prime?(number)
-   if number <= 3 
-   return number > 1
-  elsif number.module 2 = 0 or number.module 3 = 0
+  if number <= 1 || number == 0 || number == 1
     return false
- end
+  elsif
+    (2..number - 1).each do |i|
+      if number % i == 0
+        return false
+      end
+    end
+  end
+  true  
 end
