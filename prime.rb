@@ -2,7 +2,7 @@
 def prime?(number)
    if number <= 3 
    return number > 1
-  else
+  elsif
   false  
  end
 end
