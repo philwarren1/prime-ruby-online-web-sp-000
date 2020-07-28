@@ -1,6 +1,6 @@
 # Add  code here!
-def prime?
-  if prime?
+def prime?(number)
+  if prime?(number)
   return true
   else
   false  
